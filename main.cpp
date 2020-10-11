@@ -2,6 +2,7 @@
 
 #include "mutex_test.h"
 #include "thread_test.h"
+#include "conritional_variable_test.h"
 
 int main ()
 {
@@ -9,7 +10,9 @@ int main ()
 	system("chcp 65001");
 
 	// test_std_thread();
-	test_vector_filling_with_mutex();
+	// mutex_with_vector::test_vector_filling_with_mutex();
+
+	single_worker_job::test_conditional_variable ();
 
 	return 0;
 }

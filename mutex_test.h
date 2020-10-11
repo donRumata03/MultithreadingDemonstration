@@ -6,4 +6,7 @@
 
 #include "pythonic.h"
 
-void test_vector_filling_with_mutex();
+namespace mutex_with_vector
+{
+	void test_vector_filling_with_mutex ();
+}
