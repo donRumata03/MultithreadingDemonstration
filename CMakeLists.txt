@@ -16,7 +16,7 @@ add_executable(MultithreadingDemo
         mutex_test.h
         thread_test.h
 
-        )
+        thread_test.cpp)
 
 include_directories(${pythonic_include_directories})
 target_link_libraries(MultithreadingDemo ${pythonic_static_library})
