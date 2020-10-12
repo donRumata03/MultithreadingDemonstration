@@ -2,7 +2,7 @@
 // Created by Vova on 11.10.2020.
 //
 
-#include "conritional_variable_test.h"
+#include "conditional_variable_test_single_thread.h"
 #include <condition_variable>
 
 
