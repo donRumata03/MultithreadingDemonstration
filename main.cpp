@@ -19,7 +19,9 @@ int main ()
 	// always_working_conditional_variable::main_thread();
 	// always_notifying_conditional_variable::main_thread();
 
-	single_run_many_threads_condition_variable::main_thread();
+	// single_run_many_threads_condition_variable::main_thread();
+	multiple_runs_many_threads_condition_variable::main_thread();
+
 
 	return 0;
 }

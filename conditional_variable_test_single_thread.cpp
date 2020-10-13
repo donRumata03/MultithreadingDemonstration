@@ -80,6 +80,7 @@ namespace single_worker_job
 		// Aquire CV:
 		std::unique_lock<std::mutex> lck(cv_mutex);
 		std::cout << "[worker]: Went through mutex" << std::endl;
+		// see https://stackoverflow.com/questions/31913547/how-do-stdunique-lock-and-stdcondition-variable-work
 		cv.wait(lck, [] () { return input_data_sent; });
 
 		// Do work:

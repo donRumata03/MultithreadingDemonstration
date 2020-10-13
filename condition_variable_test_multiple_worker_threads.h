@@ -10,3 +10,7 @@
 namespace single_run_many_threads_condition_variable {
 	void main_thread();
 }
+
+namespace multiple_runs_many_threads_condition_variable {
+	void main_thread();
+}
